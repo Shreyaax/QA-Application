@@ -17,17 +17,19 @@ A web-based **Question-Answering System** that allows users to upload a PDF, ext
 ## Directory Structure
 
 ```
-Shreyaax-QA-Application/
-├── app.py                     # Flask application logic
-├── requirements.txt           # Python dependencies
-├── templates/
-│   └── index.html             # HTML file for the web interface
-├── static/
-│   ├── css/
-│   │   └── style.css          # CSS styles
-│   └── js/
-│       └── script.js          # JavaScript logic
-└── uploads/                   # Directory to store uploaded PDFs
+Directory structure:
+└── Shreyaax-QA-Application/
+    ├── app.py
+    ├── requirements.txt
+    ├── README.md
+    ├── templates/
+    │   └── index.html
+    └── static/
+        ├── css/
+        │   └── style.css
+        └── js/
+            └── script.js
+
 ```
 
 ---
