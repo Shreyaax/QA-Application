@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question-Answering System</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <h1>Question-Answering System</h1>
+        </header>
+        
+        <div class="form-container">
+            <section class="pdf-upload">
+                <form id="pdf-form">
+                    <label for="pdf-file">Upload a PDF:</label>
+                    <input type="file" id="pdf-file" name="file" accept="application/pdf">
+                    <button type="button" id="extract-btn">Extract Text</button>
+                </form>
+            </section>
+            
+            <section class="qa-section">
+                <form id="qa-form">
+                    <label for="passage">Enter Passage:</label>
+                    <textarea id="passage" name="passage" rows="5" placeholder="Provide the text here..." required></textarea>
+                    
+                    <label for="question">Ask a Question:</label>
+                    <textarea id="question" name="question" rows="4" placeholder="What would you like to know?" required></textarea>
+                    
+                    <button type="submit">Get Answer</button>
+                </form>
+            </section>
+        </div>
+        
+        <section class="answer-section">
+            <h2>The Answer:</h2>
+            <p id="answer"></p>
+        </section>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
